@@ -2,6 +2,54 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { crearReservaPendienteDesdeCheckout } from "../firebase/actions";
 
+const serializarNombre = (value = "") =>
+  String(value)
+    .replace(/\s+/g, " ")
+    .trimStart();
+
+const serializarEmail = (value = "") => String(value).trim().toLowerCase();
+
+const serializarWhatsapp = (value = "") =>
+  String(value)
+    .replace(/\D/g, "")
+    .slice(0, 10);
+
+const validateName = (value) => {
+  if (!value.trim()) {
+    return "El nombre es requerido";
+  }
+  if (value.trim().length < 3) {
+    return "El nombre debe tener al menos 3 caracteres";
+  }
+  return "";
+};
+
+const validateEmail = (value) => {
+  if (!value.trim()) {
+    return "El correo es requerido";
+  }
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(value)) {
+    return "El correo no es válido";
+  }
+  return "";
+};
+
+const validateWhatsapp = (value) => {
+  if (!value.trim()) {
+    return "El WhatsApp es requerido";
+  }
+  const onlyNumbers = value.replace(/\s/g, "");
+  if (onlyNumbers.length !== 10) {
+    return "Tu número debe contener 10 dígitos";
+  }
+  const phoneRegex = /^[0-9]{10}$/;
+  if (!phoneRegex.test(onlyNumbers)) {
+    return "El WhatsApp solo puede contener números";
+  }
+  return "";
+};
+
 /**
  * Store para manejar el flujo de checkout y pagos
  * Integra con pasarelas de pago y maneja el estado de la transacción
@@ -93,11 +141,29 @@ export const useCheckoutStore = create(
        * Actualiza los datos de contacto
        */
       updateDatosContacto: (datos) => {
+        const datosSerializados = {
+          ...datos,
+        };
+
+        if (Object.prototype.hasOwnProperty.call(datosSerializados, "nombre")) {
+          datosSerializados.nombre = serializarNombre(datosSerializados.nombre);
+        }
+        if (Object.prototype.hasOwnProperty.call(datosSerializados, "email")) {
+          datosSerializados.email = serializarEmail(datosSerializados.email);
+        }
+        if (
+          Object.prototype.hasOwnProperty.call(datosSerializados, "whatsapp")
+        ) {
+          datosSerializados.whatsapp = serializarWhatsapp(
+            datosSerializados.whatsapp
+          );
+        }
+
         set((state) => ({
           datosContacto: {
             ...state.datosContacto,
-            ...datos
-          }
+            ...datosSerializados,
+          },
         }));
       },
 
@@ -132,23 +198,17 @@ export const useCheckoutStore = create(
        */
       validarDatos: () => {
         const { datosContacto, datosReserva } = get();
-        
+
         const errores = [];
-        
-        if (!datosContacto.nombre?.trim()) {
-          errores.push('El nombre es obligatorio');
-        }
-        
-        if (!datosContacto.email?.trim()) {
-          errores.push('El email es obligatorio');
-        } else if (!/\S+@\S+\.\S+/.test(datosContacto.email)) {
-          errores.push('El email no es válido');
-        }
-        
-        if (!datosContacto.whatsapp?.trim()) {
-          errores.push('El WhatsApp es obligatorio');
-        }
-        
+
+        const nameError = validateName(datosContacto.nombre || "");
+        const emailError = validateEmail(datosContacto.email || "");
+        const whatsappError = validateWhatsapp(datosContacto.whatsapp || "");
+
+        if (nameError) errores.push(nameError);
+        if (emailError) errores.push(emailError);
+        if (whatsappError) errores.push(whatsappError);
+
         if (!datosReserva) {
           errores.push('No hay datos de reserva válidos');
         }

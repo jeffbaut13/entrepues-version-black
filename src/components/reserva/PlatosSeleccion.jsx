@@ -504,7 +504,6 @@ export default function PlatosSeleccion({
             className="size-full text-center bg-dark animate-pulse text-dark flex items-center justify-center rounded-lg flex-col"
           >
             <span />
-            
           </motion.div>
         </div>
       ) : (
@@ -581,10 +580,7 @@ export default function PlatosSeleccion({
                           ))}
                         </div>
                       ) : (
-                        <p className="opacity-70">
-                          Escoge al menos un plato para este asistente desde el
-                          menú de la izquierda.
-                        </p>
+                        <></>
                       )}
                     </div>
                   </div>
