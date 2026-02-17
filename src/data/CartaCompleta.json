@@ -1,0 +1,308 @@
+{
+  "desayunos": {
+    "desayunos": {
+      "productos": [
+        {
+          "id": "desayuno_1",
+          "nombre": "Arepa con queso y jamón",
+          "descripcion": "Arepa fresca rellena de queso costeño y jamón",
+          "precio": 15000,
+          "categoria": "desayunos",
+          "subcategoria": "desayunos",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "desayuno_2",
+          "nombre": "Huevos a la campesina",
+          "descripcion": "Huevos fritos con plátanos, arepas y queso",
+          "precio": 18000,
+          "categoria": "desayunos",
+          "subcategoria": "desayunos",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "desayuno_3",
+          "nombre": "Sancocho de gallina",
+          "descripcion": "Caldo tradicional con papa y yuca",
+          "precio": 20000,
+          "categoria": "desayunos",
+          "subcategoria": "desayunos",
+          "img": "/platos/Ajiaco.jpg"
+        }
+      ]
+    }
+  },
+  "entradas": {
+    "amazonía": {
+      "productos": [
+        {
+          "id": "entrada_am_1",
+          "nombre": "Yuca frita con mojo",
+          "descripcion": "Yuca crujiente acompañada de mojo costeño",
+          "precio": 24000,
+          "categoria": "entradas",
+          "subcategoria": "amazonía",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "entrada_am_2",
+          "nombre": "Tortillas de plátano",
+          "descripcion": "Tortillas caseras de plátano maduro",
+          "precio": 23000,
+          "categoria": "entradas",
+          "subcategoria": "amazonía",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "entrada_am_3",
+          "nombre": "Chicharrón de pescado amazónico",
+          "descripcion": "Pescado del río frito y crujiente",
+          "precio": 27000,
+          "categoria": "entradas",
+          "subcategoria": "amazonía",
+          "img": "/platos/empanadas.jpg"
+        }
+      ]
+    },
+    "andina": {
+      "productos": [
+        {
+          "id": "entrada_and_1",
+          "nombre": "Papa rellena",
+          "descripcion": "Papa criolla rellena de carne sazonada",
+          "precio": 22000,
+          "categoria": "entradas",
+          "subcategoria": "andina",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "entrada_and_2",
+          "nombre": "Chicharrón crocante",
+          "descripcion": "Cerdo frito en su punto de crujencia",
+          "precio": 28000,
+          "categoria": "entradas",
+          "subcategoria": "andina",
+          "img": "/platos/chicharron.jpg"
+        }
+      ]
+    },
+    "caribe": {
+      "productos": [
+        {
+          "id": "entrada_car_1",
+          "nombre": "Carimañolas de queso costeño",
+          "descripcion": "Masa de yuca rellena de queso costeño",
+          "precio": 25000,
+          "categoria": "entradas",
+          "subcategoria": "caribe",
+          "img": "/platos/chicharron.jpg"
+        },
+        {
+          "id": "entrada_car_2",
+          "nombre": "Arepitas de huevo",
+          "descripcion": "Arepitas pequeñas con huevo costeño",
+          "precio": 26000,
+          "categoria": "entradas",
+          "subcategoria": "caribe",
+          "img": "/platos/chicharron.jpg"
+        }
+      ]
+    }
+  },
+  "platos_fuertes": {
+    "amazonía": {
+      "productos": [
+        {
+          "id": "plato_am_1",
+          "nombre": "Patarasca de pescado",
+          "descripcion": "Pescado envuelto en plátano y hierbas amazónicas",
+          "precio": 88000,
+          "categoria": "platos_fuertes",
+          "subcategoria": "amazonía",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "plato_am_2",
+          "nombre": "Caldo de carachama",
+          "descripcion": "Caldo amazónico con pescado de río",
+          "precio": 72000,
+          "categoria": "platos_fuertes",
+          "subcategoria": "amazonía",
+          "img": "/platos/Picada.jpg"
+        },
+        {
+          "id": "plato_am_3",
+          "nombre": "Moqueca amazónica",
+          "descripcion": "Guiso de pescado con coco y verduras",
+          "precio": 80000,
+          "categoria": "platos_fuertes",
+          "subcategoria": "amazonía",
+          "img": "/platos/Bandeja-Paisa.jpg"
+        }
+      ]
+    },
+    "andina": {
+      "productos": [
+        {
+          "id": "plato_and_1",
+          "nombre": "Ajiaco santafereño",
+          "descripcion": "Sopa tradicional de papas con pollo y maíz",
+          "precio": 85000,
+          "categoria": "platos_fuertes",
+          "subcategoria": "andina",
+          "img": "/platos/Bandeja-Paisa.jpg"
+        },
+        {
+          "id": "plato_and_2",
+          "nombre": "Bandeja paisa",
+          "descripcion": "Plato típico antioqueño con carnes y frijoles",
+          "precio": 90000,
+          "categoria": "platos_fuertes",
+          "subcategoria": "andina",
+          "img": "/platos/chicharron.jpg"
+        },
+        {
+          "id": "plato_and_3",
+          "nombre": "Lechona tolimense",
+          "descripcion": "Cerdo relleno de arroz, verduras y especias",
+          "precio": 88000,
+          "categoria": "platos_fuertes",
+          "subcategoria": "andina",
+          "img": "/platos/chicharron.jpg"
+        }
+      ]
+    },
+    "caribe": {
+      "productos": [
+        {
+          "id": "plato_car_1",
+          "nombre": "Mote de queso",
+          "descripcion": "Caldo sabroso con queso costeño y maíz",
+          "precio": 70000,
+          "categoria": "platos_fuertes",
+          "subcategoria": "caribe",
+          "img": "/platos/chicharron.jpg"
+        },
+        {
+          "id": "plato_car_2",
+          "nombre": "Sancocho de pescado",
+          "descripcion": "Sancocho costeño con pescado fresco",
+          "precio": 85000,
+          "categoria": "platos_fuertes",
+          "subcategoria": "caribe",
+          "img": "/platos/chicharron.jpg"
+        }
+      ]
+    }
+  },
+  "bebidas": {
+    "no_alcoholicas": {
+      "productos": [
+        {
+          "id": "bebida_1",
+          "nombre": "Jugo de lulo",
+          "descripcion": "Jugo fresco de lulo natural",
+          "precio": 8000,
+          "categoria": "bebidas",
+          "subcategoria": "no_alcoholicas",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "bebida_2",
+          "nombre": "Horchata",
+          "descripcion": "Horchata de ajonjolí refrescante",
+          "precio": 7000,
+          "categoria": "bebidas",
+          "subcategoria": "no_alcoholicas",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "bebida_3",
+          "nombre": "Guaraná amazónico",
+          "descripcion": "Bebida energética del Amazonas",
+          "precio": 10000,
+          "categoria": "bebidas",
+          "subcategoria": "no_alcoholicas",
+          "img": "/platos/Ajiaco.jpg"
+        }
+      ]
+    },
+    "alcoholicas": {
+      "productos": [
+        {
+          "id": "bebida_alc_1",
+          "nombre": "Cerveza Artesanal",
+          "descripcion": "Cerveza local artesanal",
+          "precio": 12000,
+          "categoria": "bebidas",
+          "subcategoria": "alcoholicas",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "bebida_alc_2",
+          "nombre": "Aguardiente Regional",
+          "descripcion": "Bebida tradicional colombiana",
+          "precio": 18000,
+          "categoria": "bebidas",
+          "subcategoria": "alcoholicas",
+          "img": "/platos/Ajiaco.jpg"
+        }
+      ]
+    }
+  },
+  "postres": {
+    "dulces": {
+      "productos": [
+        {
+          "id": "postre_1",
+          "nombre": "Flan de coco",
+          "descripcion": "Flan casero con coco rallado",
+          "precio": 15000,
+          "categoria": "postres",
+          "subcategoria": "dulces",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "postre_2",
+          "nombre": "Arroz con leche",
+          "descripcion": "Arroz con leche tradicional",
+          "precio": 12000,
+          "categoria": "postres",
+          "subcategoria": "dulces",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "postre_3",
+          "nombre": "Tres leches",
+          "descripcion": "Torta de tres leches casera",
+          "precio": 18000,
+          "categoria": "postres",
+          "subcategoria": "dulces",
+          "img": "/platos/Ajiaco.jpg"
+        }
+      ]
+    },
+    "frutas": {
+      "productos": [
+        {
+          "id": "postre_f_1",
+          "nombre": "Ensalada de frutas",
+          "descripcion": "Frutas frescas de la región",
+          "precio": 9000,
+          "categoria": "postres",
+          "subcategoria": "frutas",
+          "img": "/platos/Ajiaco.jpg"
+        },
+        {
+          "id": "postre_f_2",
+          "nombre": "Sorbet de guanabana",
+          "descripcion": "Sorbet helado de guanabana natural",
+          "precio": 10000,
+          "categoria": "postres",
+          "subcategoria": "frutas",
+          "img": "/platos/Ajiaco.jpg"
+        }
+      ]
+    }
+  }
+}

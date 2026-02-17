@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Danson";
+  src: url("/fonts/danson-semibold.ttf") format("truetype");
+  ascent-override: 90%;
+  descent-override: 5%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Helvetica-Regular";
+  src: url("/fonts/HelveticaNowDisplayRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Amithen";
+  src: url("/fonts/Amithen.ttf") format("truetype");
+}
+
+@theme inline {
+  --color-secondary: var(--secondary);
+  --color-brown: var(--brown);
+  --color-dark: var(--dark);
+  --font-danson: "Danson", sans-serif;
+  --font-helvetica: "Helvetica-Regular", sans-serif;
+  --font-amithen: "Amithen", sans-serif;
+}
+:root {
+  --secondary: #fff6ea;
+  --brown: #352821;
+  --dark: #333333;
+}
+
+html {
+  @apply xl:text-[0.8333339vw] max-sm:text-[3.5vw] sm:text-[1.5vw] lg:text-[1vw] bg-[#0b0b0b];
+
+  scroll-behavior: smooth;
+  /* @apply overflow-x-hidden xl:text-[16px] max-sm:text-[4vw] sm:text-[1.5vw] lg:text-[1vw] scroll-smooth bg-black; */
+}
+
+body {
+  @apply overflow-x-hidden bg-[#0b0b0b] text-brown;
+
+  scroll-behavior: smooth;
+
+  font-family: "Helvetica-Regular", sans-serif;
+  /* Scroll para Webkit (Chrome, Safari, Edge) */
+  scrollbar-width: thin;
+  scrollbar-color: #0a0a0a;
+}
+
+#root {
+  @apply w-full h-full;
+}
+
+/* Webkit scrollbar (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  @apply lg:w-1 lg:h-1 w-2 h-px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply lg:bg-brown bg-brown/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* Scrollbar oculto para BookingModal */
+.barra {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.barra::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.barra::-webkit-scrollbar-thumb {
+  display: none !important;
+  background-color: transparent !important;
+}
+
+.barra::-webkit-scrollbar-track {
+  display: none !important;
+  background-color: transparent !important;
+}
+
+option {
+  background-color: black;
+}
+
+button {
+  @apply cursor-pointer;
+}
+.button-underline-animated {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  --hover-color: white; /* valor por defecto */
+}
+
+h4 {
+  @apply text-xl;
+}
+.button-underline-animated::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--hover-color); /* usa la variable personalizada */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease, background-color 0.3s ease;
+}
+
+.button-underline-animated:hover::after {
+  transform: scaleX(1);
+}
+
+/* Aplica la animación por defecto */
+.button-underline-animated::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--hover-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease, background-color 0.3s ease;
+}
+
+/* Aplica la animación SOLO si no está activa */
+.button-underline-animated:hover::after {
+  transform: scaleX(1);
+}
+
+/* Si el botón ya está activo, no se muestra la animación al hacer hover */
+.button-underline-animated.active-region::after {
+  content: none;
+}
+
+/* -----------------------------------------------------------------
+ */
+
+.buttonConsultar {
+  font-family: Inter;
+  @apply bg-black font-bold;
+}
+
+/* Oculta la barra visual, pero mantiene el scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+} /* Chrome, Safari */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE y Edge antiguos */
+  scrollbar-width: none; /* Firefox */
+}
+
+.lineDown:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -0px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lineDown:hover:after {
+  opacity: 1;
+}
+
+.lineDown.active:after {
+  opacity: 1;
+}
+header.active {
+  @apply bg-black backdrop-blur-md;
+}

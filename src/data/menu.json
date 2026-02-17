@@ -1,0 +1,616 @@
+{
+    "amazonía": {
+    "entradas": [
+      {
+        "id": 1,
+        "title": "Yuca frita con mojo",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "24.000"
+      },
+      {
+        "id": 2,
+        "title": "Tortillas de plátano",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "23.000"
+      },
+      {
+        "id": 3,
+        "title": "Chicharrón de pescado amazónico",
+        "image": "/platos/empanadas.jpg",
+        "price": "27.000"
+      },
+      {
+        "id": 4,
+        "title": "Patarasca de bocachico (entrada)",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "26.000"
+      },
+      {
+        "id": 5,
+        "title": "Ajicillo con fariña",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "25.000"
+      },
+      {
+        "id": 6,
+        "title": "Ensalada de chontaduro",
+        "image": "/platos/Picada.jpg",
+        "price": "22.000"
+      },
+      {
+        "id": 7,
+        "title": "Arepas de yuca",
+        "image": "/platos/empanadas.jpg",
+        "price": "21.000"
+      },
+      {
+        "id": 8,
+        "title": "Mini tacacho con cecina",
+        "image": "/platos/Costillas.jpg",
+        "price": "28.000"
+      }
+    ],
+    "platosFuertes": [
+      {
+        "id": 1,
+        "title": "Patarasca de pescado",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "88.000"
+      },
+      {
+        "id": 2,
+        "title": "Caldo de carachama",
+        "image": "/platos/Picada.jpg",
+        "price": "72.000"
+      },
+      {
+        "id": 3,
+        "title": "Moqueca amazónica",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "80.000"
+      },
+      {
+        "id": 4,
+        "title": "Tacacho con cecina",
+        "image": "/platos/Costillas.jpg",
+        "price": "85.000"
+      },
+      {
+        "id": 5,
+        "title": "Pirarucú asado",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "90.000"
+      },
+      {
+        "id": 6,
+        "title": "Sancocho de bocachico",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "77.000"
+      },
+      {
+        "id": 7,
+        "title": "Sudado de gamitana",
+        "image": "/platos/empanadas.jpg",
+        "price": "75.000"
+      },
+      {
+        "id": 8,
+        "title": "Bandeja selvática",
+        "image": "/platos/empanadas.jpg",
+        "price": "86.000"
+      }
+    ]
+  },
+  "andina": {
+    "entradas": [
+      {
+        "id": 1,
+        "title": "Papa rellena",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "22.000"
+      },
+      {
+        "id": 2,
+        "title": "Chicharrón crocante",
+        "image": "/platos/chicharron.jpg",
+        "price": "28.000"
+      },
+      {
+        "id": 3,
+        "title": "Arepa boyacense",
+        "image": "/platos/Costillas.jpg",
+        "price": "24.000"
+      },
+      {
+        "id": 4,
+        "title": "Tamales tolimenses",
+        "image": "/platos/Corte.jpg",
+        "price": "30.000"
+      },
+      {
+        "id": 5,
+        "title": "Empanadas de pipián",
+        "image": "/platos/chicharron.jpg",
+        "price": "26.000"
+      },
+      {
+        "id": 6,
+        "title": "Aborrajados de plátano",
+        "image": "/platos/Picada.jpg",
+        "price": "23.000"
+      },
+      {
+        "id": 7,
+        "title": "Caldo de costilla",
+        "image": "/platos/empanadas.jpg",
+        "price": "25.000"
+      },
+      {
+        "id": 8,
+        "title": "Almojábanas",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "21.000"
+      }
+    ],
+    "platosFuertes": [
+      {
+        "id": 1,
+        "title": "Ajiaco santafereño",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "85.000"
+      },
+      {
+        "id": 2,
+        "title": "Bandeja paisa",
+        "image": "/platos/chicharron.jpg",
+        "price": "90.000"
+      },
+      {
+        "id": 3,
+        "title": "Lechona tolimense",
+        "image": "/platos/chicharron.jpg",
+        "price": "88.000"
+      },
+      {
+        "id": 4,
+        "title": "Sudado de carne",
+        "image": "/platos/empanadas.jpg",
+        "price": "74.000"
+      },
+      {
+        "id": 5,
+        "title": "Sobrebarriga en salsa",
+        "image": "/platos/Corte.jpg",
+        "price": "80.000"
+      },
+      {
+        "id": 6,
+        "title": "Puchero santafereño",
+        "image": "/platos/chicharron.jpg",
+        "price": "83.000"
+      },
+      {
+        "id": 7,
+        "title": "Tamales huilenses",
+        "image": "/platos/chicharron.jpg",
+        "price": "78.000"
+      },
+      {
+        "id": 8,
+        "title": "Cuchuco con espinazo",
+        "image": "/platos/Picada.jpg",
+        "price": "70.000"
+      }
+    ]
+  },
+    "caribe": {
+    "entradas": [
+      {
+        "id": 1,
+        "title": "Carimañolas de queso costeño",
+        "image": "/platos/chicharron.jpg",
+        "price": "25.000"
+      },
+      {
+        "id": 2,
+        "title": "Arepitas de huevo",
+        "image": "/platos/chicharron.jpg",
+        "price": "26.000"
+      },
+      {
+        "id": 3,
+        "title": "Deditos de queso costeño",
+        "image": "/platos/empanadas.jpg",
+        "price": "24.000"
+      },
+      {
+        "id": 4,
+        "title": "Empanadas de camarón",
+        "image": "/platos/Picada.jpg",
+        "price": "28.000"
+      },
+      {
+        "id": 5,
+        "title": "Bollos de yuca con suero",
+        "image": "/platos/Costillas.jpg",
+        "price": "20.000"
+      },
+      {
+        "id": 6,
+        "title": "Tostones con hogao",
+        "image": "/platos/chicharron.jpg",
+        "price": "22.000"
+      },
+      {
+        "id": 7,
+        "title": "Ceviche de pescado",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "30.000"
+      },
+      {
+        "id": 8,
+        "title": "Almojábanas costeñas",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "21.000"
+      }
+    ],
+    "platosFuertes": [
+      {
+        "id": 1,
+        "title": "Mote de queso",
+        "image": "/platos/chicharron.jpg",
+        "price": "70.000"
+      },
+      {
+        "id": 2,
+        "title": "Sancocho de pescado",
+        "image": "/platos/chicharron.jpg",
+        "price": "85.000"
+      },
+      {
+        "id": 3,
+        "title": "Pargo rojo frito con patacones",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "90.000"
+      },
+      {
+        "id": 4,
+        "title": "Arroz de lisa",
+        "image": "/platos/chicharron.jpg",
+        "price": "88.000"
+      },
+      {
+        "id": 5,
+        "title": "Bagre guisado con yuca",
+        "image": "/platos/Picada.jpg",
+        "price": "80.000"
+      },
+      {
+        "id": 6,
+        "title": "Posta negra cartagenera",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "87.000"
+      },
+      {
+        "id": 7,
+        "title": "Chuleta valluna",
+        "image": "/platos/empanadas.jpg",
+        "price": "75.000"
+      },
+      {
+        "id": 8,
+        "title": "Cazuela de mariscos",
+        "image": "/platos/Costillas.jpg",
+        "price": "90.000"
+      }
+    ]
+  },
+  "insular": {
+    "entradas": [
+      {
+        "id": 1,
+        "title": "Ceviche de caracol",
+        "image": "/platos/chicharron.jpg",
+        "price": "29.000"
+      },
+      {
+        "id": 2,
+        "title": "Empanadas isleñas",
+        "image": "/platos/Costillas.jpg",
+        "price": "26.000"
+      },
+      {
+        "id": 3,
+        "title": "Fritos de cangrejo",
+        "image": "/platos/chicharron.jpg",
+        "price": "30.000"
+      },
+      {
+        "id": 4,
+        "title": "Tostones con pescado ahumado",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "27.000"
+      },
+      {
+        "id": 5,
+        "title": "Mini rondón vegetal",
+        "image": "/platos/chicharron.jpg",
+        "price": "25.000"
+      },
+      {
+        "id": 6,
+        "title": "Arepas de coco",
+        "image": "/platos/chicharron.jpg",
+        "price": "22.000"
+      },
+      {
+        "id": 7,
+        "title": "Tiras de pescado frito",
+        "image": "/platos/empanadas.jpg",
+        "price": "28.000"
+      },
+      {
+        "id": 8,
+        "title": "Yuca al mojo",
+        "image": "/platos/Picada.jpg",
+        "price": "23.000"
+      }
+    ],
+    "platosFuertes": [
+      {
+        "id": 1,
+        "title": "Rondón de pescado",
+        "image": "/platos/chicharron.jpg",
+        "price": "90.000"
+      },
+      {
+        "id": 2,
+        "title": "Curry de cangrejo",
+        "image": "/platos/chicharron.jpg",
+        "price": "82.000"
+      },
+      {
+        "id": 3,
+        "title": "Langosta al ajillo",
+        "image": "/images/insular-fuerte3.jpg",
+        "price": "85.000"
+      },
+      {
+        "id": 4,
+        "title": "Filete de pescado isleño",
+        "image": "/platos/Picada.jpg",
+        "price": "78.000"
+      },
+      {
+        "id": 5,
+        "title": "Caracol guisado",
+        "image": "/platos/empanadas.jpg",
+        "price": "80.000"
+      },
+      {
+        "id": 6,
+        "title": "Sopa de cangrejo",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "75.000"
+      },
+      {
+        "id": 7,
+        "title": "Rondón mixto con coco",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "88.000"
+      },
+      {
+        "id": 8,
+        "title": "Fricase de pescado",
+        "image": "/platos/Costillas.jpg",
+        "price": "74.000"
+      }
+    ]
+  },
+
+
+  "orinoquía": {
+    "entradas": [
+      {
+        "id": 1,
+        "title": "Arepas de arroz con queso sabanero",
+        "image": "/platos/chicharron.jpg",
+        "price": "25.000"
+      },
+      {
+        "id": 2,
+        "title": "Carne a la perra (entrada en tiras)",
+        "image": "/platos/Corte.jpg",
+        "price": "28.000"
+      },
+      {
+        "id": 3,
+        "title": "Chorizo llanero con yuca",
+        "image": "/platos/Costillas.jpg",
+        "price": "22.000"
+      },
+      {
+        "id": 4,
+        "title": "Tamal de arroz con cerdo",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "27.000"
+      },
+      {
+        "id": 5,
+        "title": "Aborrajado de plátano maduro",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "24.000"
+      },
+      {
+        "id": 6,
+        "title": "Empanadas de carne de res llanera",
+        "image": "/platos/chicharron.jpg",
+        "price": "20.000"
+      },
+      {
+        "id": 7,
+        "title": "Mini mazorcas asadas con mantequilla",
+        "image": "/platos/Picada.jpg",
+        "price": "23.000"
+      },
+      {
+        "id": 8,
+        "title": "Arepuelas dulces de yuca",
+        "image": "/platos/empanadas.jpg",
+        "price": "21.000"
+      }
+    ],
+    "platosFuertes": [
+      {
+        "id": 1,
+        "title": "Mamona llanera (ternera a la llanera)",
+        "image": "/platos/chicharron.jpg",
+        "price": "85.000"
+      },
+      {
+        "id": 2,
+        "title": "Cachicamo asado",
+        "image": "/platos/Picada.jpg",
+        "price": "80.000"
+      },
+      {
+        "id": 3,
+        "title": "Sancocho de gallina criolla",
+        "image": "/platos/Corte.jpg",
+        "price": "75.000"
+      },
+      {
+        "id": 4,
+        "title": "Carne a la perra (versión completa)",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "78.000"
+      },
+      {
+        "id": 5,
+        "title": "Picada llanera",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "90.000"
+      },
+      {
+        "id": 6,
+        "title": "Pescado moqueado con fariña y ají",
+        "image": "/platos/empanadas.jpg",
+        "price": "82.000"
+      },
+      {
+        "id": 7,
+        "title": "Sobrebarriga criolla con papa y yuca",
+        "image": "/platos/Costillas.jpg",
+        "price": "77.000"
+      },
+      {
+        "id": 8,
+        "title": "Costillas de cerdo en salsa de corozo",
+        "image": "/platos/chicharron.jpg",
+        "price": "79.000"
+      }
+    ]
+  },
+  "pacífica": {
+    "entradas": [
+      {
+        "id": 1,
+        "title": "Empanadas de camarón",
+        "image": "/platos/Costillas.jpg",
+        "price": "26.000"
+      },
+      {
+        "id": 2,
+        "title": "Aborrajados de piangua",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "25.000"
+      },
+      {
+        "id": 3,
+        "title": "Chontaduro con miel",
+        "image": "/platos/empanadas.jpg",
+        "price": "22.000"
+      },
+      {
+        "id": 4,
+        "title": "Tostones con camarón",
+        "image": "/platos/chicharron.jpg",
+        "price": "30.000"
+      },
+      {
+        "id": 5,
+        "title": "Ceviche de piangua",
+        "image": "/platos/Costillas.jpg",
+        "price": "27.000"
+      },
+      {
+        "id": 6,
+        "title": "Arepas de ñame",
+        "image": "/images/pacifica-entradas6.jpg",
+        "price": "23.000"
+      },
+      {
+        "id": 7,
+        "title": "Bolas de pescado frito",
+        "image": "/platos/Ajiaco.jpg",
+        "price": "28.000"
+      },
+      {
+        "id": 8,
+        "title": "Tamal de pescado",
+        "image": "/images/pacifica-entradas8.jpg",
+        "price": "29.000"
+      }
+    ],
+    "platosFuertes": [
+      {
+        "id": 1,
+        "title": "Encocado de camarón",
+        "image": "/platos/Bandeja-Paisa.jpg",
+        "price": "85.000"
+      },
+      {
+        "id": 2,
+        "title": "Sudado de piangua",
+        "image": "/platos/Picada.jpg",
+        "price": "78.000"
+      },
+      {
+        "id": 3,
+        "title": "Arroz atollado",
+        "image": "/images/pacifica-fuerte3.jpg",
+        "price": "74.000"
+      },
+      {
+        "id": 4,
+        "title": "Sopa de cangrejo",
+        "image": "/platos/empanadas.jpg",
+        "price": "77.000"
+      },
+      {
+        "id": 5,
+        "title": "Cazuela del pacífico",
+        "image": "/images/pacifica-fuerte5.jpg",
+        "price": "80.000"
+      },
+      {
+        "id": 6,
+        "title": "Pescado frito con arroz con coco",
+        "image": "/images/pacifica-fuerte6.jpg",
+        "price": "75.000"
+      },
+      {
+        "id": 7,
+        "title": "Encocado mixto",
+        "image": "/images/pacifica-fuerte7.jpg",
+        "price": "88.000"
+      },
+      {
+        "id": 8,
+        "title": "Bagre en salsa criolla",
+        "image": "/images/pacifica-fuerte8.jpg",
+        "price": "70.000"
+      }
+    ]
+  }
+}

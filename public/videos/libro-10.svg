@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28.26 31.49">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-2 {
+        stroke: #fff6ea;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .75px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-828.42" y="-714.52" width="778.58" height="1084.89"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="117.27" y="-706.56" width="778.58" height="1084.89"/>
+    </clipPath>
+    <image id="image" width="2500" height="1406" xlink:href="EntrePues ajustes pagina/Links/fondo-reserva.jpg"/>
+  </defs>
+  <g class="cls-4">
+    <use transform="translate(-1905.4 -721.38) scale(.78)" xlink:href="#image"/>
+  </g>
+  <g>
+    <rect class="cls-2" x=".87" y="4.41" width="5.3" height="3.03" rx=".83" ry=".83"/>
+    <rect class="cls-2" x=".87" y="10.91" width="5.3" height="3.03" rx=".83" ry=".83"/>
+    <rect class="cls-2" x=".87" y="17.41" width="5.3" height="3.03" rx=".83" ry=".83"/>
+    <rect class="cls-2" x=".87" y="23.92" width="5.3" height="3.03" rx=".83" ry=".83"/>
+    <line class="cls-2" x1="18.59" y1="27.93" x2="23.5" y2="27.93"/>
+    <path class="cls-2" d="M3.52,27.08v.38c0,1.73,1.4,3.12,3.12,3.12h17.62c1.73,0,3.12-1.4,3.12-3.12V4.06c0-1.73-1.4-3.12-3.12-3.12H6.65c-1.73,0-3.12,1.4-3.12,3.12v.25"/>
+    <line class="cls-2" x1="3.52" y1="20.45" x2="3.52" y2="23.75"/>
+    <line class="cls-2" x1="3.52" y1="14.08" x2="3.52" y2="17.31"/>
+    <line class="cls-2" x1="3.52" y1="7.44" x2="3.52" y2="10.81"/>
+  </g>
+  <g class="cls-3">
+    <use transform="translate(-959.71 -713.42) scale(.78)" xlink:href="#image"/>
+  </g>
+</svg>
