@@ -9,7 +9,6 @@ import {
   Smartphone,
   CheckCircle,
   AlertCircle,
-  ArrowLeft,
   Mail,
   Phone,
   User,
@@ -18,8 +17,8 @@ import {
 } from "lucide-react";
 
 import { Button } from "../components/ui/Button";
-import { Logo } from "../components/ui/Logo";
 import useCheckoutStore from "../store/checkoutStore";
+import useReservaStore from "../store/reservaStore";
 
 export const Checkout = () => {
   const navigate = useNavigate();
@@ -29,6 +28,8 @@ export const Checkout = () => {
   // Determinar el estado basado en la URL
   const isSuccessPage = location.pathname.includes("/success");
   const isCancelPage = location.pathname.includes("/cancel");
+  const { showMenuSelected, limpiarDatosCheckout, resetReserva } =
+    useReservaStore();
 
   const {
     datosReserva,
@@ -74,6 +75,9 @@ export const Checkout = () => {
     clearError();
     const resultado = await iniciarPago();
     if (resultado.ok) {
+      limpiarDatosCheckout();
+      resetReserva();
+      showMenuSelected(false);
       navigate("/checkout/success");
       return;
     }
